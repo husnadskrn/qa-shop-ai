@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QA Shop - Cart</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="top-actions">
+        <h1 data-cy="cart-page-title">Sepet</h1>
+        <a class="link-btn" href="./products.html" data-cy="back-to-products">Ürünlere Dön</a>
+      </div>
+    </header>
+
+    <div class="container">
+      <div class="card">
+        <div id="cart-items" data-cy="cart-items"></div>
+        <hr />
+        <label>Kupon Kodu</label>
+        <input data-cy="coupon-input" id="couponInput" placeholder="INDIRIM10" />
+        <button data-cy="apply-coupon-btn" id="applyCouponBtn">Kupon Uygula</button>
+        <div id="couponMessage" data-cy="coupon-message"></div>
+        <h3 data-cy="cart-total">Toplam: 0 TL</h3>
+      </div>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>

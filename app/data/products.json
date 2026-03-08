@@ -1,0 +1,23 @@
+[
+    {
+      "id": 1,
+      "name": "Kablosuz Mouse",
+      "price": 499,
+      "stock": 10,
+      "description": "Ergonomik ve hafif kablosuz mouse"
+    },
+    {
+      "id": 2,
+      "name": "Mekanik Klavye",
+      "price": 1299,
+      "stock": 5,
+      "description": "RGB aydınlatmalı mekanik klavye"
+    },
+    {
+      "id": 3,
+      "name": "27 Inch Monitör",
+      "price": 5499,
+      "stock": 0,
+      "description": "IPS panel 27 inç monitör"
+    }
+  ]

@@ -1,0 +1,11 @@
+{
+  "cucumberautocomplete.steps": [
+    "cypress/e2e/**/*.ts"
+  ],
+  "cucumberautocomplete.syncfeatures": "cypress/e2e/**/*.feature",
+  "cucumberautocomplete.strictGherkinCompletion": true,
+
+  "cursor.rules": [
+    "docs/ai-rules.md"
+  ]
+}
